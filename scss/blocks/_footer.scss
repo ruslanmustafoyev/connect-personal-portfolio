@@ -1,0 +1,26 @@
+@media only screen and (max-width:575px){
+  .footer{
+    &__container{
+  max-width: 400px;
+    }
+
+    &__nav-next{
+      flex-direction: column;
+    }
+    &__collapse{
+      flex-direction: column;
+    }
+    &__icons{
+      max-width: 400px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__logo{
+      margin: 0 auto;
+      text-align: center;
+    }
+    &__list{
+      margin-bottom: 40px;
+    }
+  }
+}

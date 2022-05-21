@@ -1,0 +1,25 @@
+@media only screen and (max-width:575px){
+  .social{
+    &__container{
+      max-width: 400px;
+    }
+    &__desc{
+      max-width:400px;
+      text-align: center;
+    }
+&__desc-title{
+  margin: 0 auto;
+  text-align: center;
+}
+&__desc-end{
+  margin: 0 auto;
+  text-align: center;
+  padding:15px;
+}
+    &__row{
+      display: flex;
+      flex-direction: column;
+      margin-top: 22px;
+    }
+  }
+}

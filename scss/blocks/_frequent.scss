@@ -1,0 +1,11 @@
+@media only screen and (max-width:575px){
+  .frequent{
+    &__container{
+      max-width: 400px;
+    }
+    &__col-text{
+      font-size: 11px;
+      max-width: 400px;
+    }
+  }
+}

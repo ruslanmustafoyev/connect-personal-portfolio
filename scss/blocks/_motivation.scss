@@ -1,0 +1,24 @@
+@media only screen and (max-width:575px){
+  .motivation{
+     &__container{
+       max-width: 400px;
+     }
+  &__row2{
+    flex-direction: column-reverse;
+    max-width: 400px;
+    text-align: center;
+  }
+  &__col2{
+    margin-top: 25px;
+  }
+  &__col2-title{
+    text-align: center;
+  }
+  &__col2-text{
+    text-align: center;
+  }
+  &__col2-list{
+    text-align: center;
+  }
+  }
+}

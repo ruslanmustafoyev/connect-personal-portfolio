@@ -1,0 +1,28 @@
+@media only screen and (max-width:575px){
+  .result{
+    &__container{
+      max-width:400px;
+    }
+    &__title{
+      max-width: 400px;
+    }
+    &__name{
+      font-size: 1rem;
+    }
+    &__row{
+      display: flex;
+     flex-direction:column;
+    flex-wrap: nowrap;
+    }
+    &__img{
+      width: 200px;
+      height: 200px;
+    }
+    &__col-pre{
+      font-size: 1.5rem;
+    }
+    &__col-num{
+      font-size: 1.5rem;
+    }
+  }
+}

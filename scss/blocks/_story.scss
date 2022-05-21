@@ -1,0 +1,27 @@
+.story{
+  &__img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  &__img-desc{
+    margin-bottom: 40px;
+  }
+  &__col-text{
+    font-size: 20px;
+  }
+  &__span{
+    margin-left: 15px;
+  }
+  &__img-name{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+  }
+  &__img-text{
+    font-size: 18px;
+    color: dimgray;
+  }
+}
